@@ -1,11 +1,15 @@
-/* S3rver on deta micro */
 /*
+ * S3rver on Deta Micro
  * NOTE: all data is EPHEMERAL until deta base storage is implemented
  *
  */
+
 const express = require('express')
 const app = express()
 const S3rver = require('s3rver');
+
+// Set Buckets from BUCKETS ENV csv
+var BUCKETS = process.env.BUCKETS.split(',').map(name => ({name})) || false;
 const s3rver = new S3rver({
     port: 4569,
     address: 'localhost',
@@ -13,10 +17,10 @@ const s3rver = new S3rver({
     directory: '/tmp/s3',
     allowMismatchedSignatures: true,
     vhostBuckets: false,
-    configureBuckets: [{ name: 'test'}]
-}).run(function(){ console.log('running')});
+    configureBuckets: BUCKETS || [{ name: 'test'}]
+}).run(function(){ console.log('s3rver running')});
 
-// S3 API Mapping
+// S3 API middleware
 app.get('*', (req, res) => { s3rver.getMiddleware()(req, res) })
 app.put('*', (req, res) => { s3rver.getMiddleware()(req, res) })
 app.post('*',(req, res) => { s3rver.getMiddleware()(req, res) })

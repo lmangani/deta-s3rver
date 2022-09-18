@@ -11,9 +11,9 @@
 
 ### Features
 #### Storage
-- [x] Ephemeral storage using `/tmp` _(expires on each pause)_
-- [ ] Persistent storage using Deta Drive _(does not expire)_
-- [ ] Persistent storage using Deta Base _(expires with TTL)_
+- [x] Ephemeral storage using `/tmp` _(quick expiration)_
+- [ ] Persistent storage using Deta Drive _(no expiration)_
+- [ ] Persistent storage using Deta Base _(TTL expiration)_
 #### Supported methods
 ##### Buckets
 - [x] Create bucket

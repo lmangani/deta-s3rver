@@ -1,0 +1,19 @@
+{
+  "name": "ds3",
+  "version": "1.0.0",
+  "description": "S3 compatible adaptor for Deta Micros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "deta"
+  ],
+  "author": "lorenzo.mangani@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "s3rver": "^3.7.1"
+  }
+}

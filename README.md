@@ -7,4 +7,8 @@
 
 [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/lmangani/deta-s3rver)
 
+### Features
+- [x] Ephemeral storage using `/tmp`
+- [ ] Persistent storage using Deta Drive
+
 Test using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)

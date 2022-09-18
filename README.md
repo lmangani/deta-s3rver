@@ -9,18 +9,19 @@
 
 [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/lmangani/deta-s3rver)
 
-### Features
+<br>
+
+### Supported Features
 #### Storage
 - [x] Ephemeral storage using `/tmp` _(quick expiration)_
 - [ ] Persistent storage using Deta Drive _(no expiration)_
 - [ ] Persistent storage using Deta Base _(TTL expiration)_
-#### Supported methods
-##### Buckets
+#### Buckets
 - [x] Create bucket
 - [x] Delete bucket
 - [x] List buckets
 - [x] List content of buckets _(prefix, delimiter, marker and max keys, common prefixes)_
-##### Objects
+#### Objects
 - [x] Put object _(support for metadata, including ContentEncoding (gzipped files)_
 - [x] Post object _(multipart)_
 - [x] Delete object(s)
@@ -29,8 +30,8 @@
 - [x] Copy object _(including updating of metadata)_
 - [x] Listen to Put, Copy, Post and Delete events.
 
-### Testing
-Test using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)
+### Validation
+Test your deta-s3rver using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)
 
 <br>
 

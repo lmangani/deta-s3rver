@@ -1,11 +1,11 @@
 {
     "name": "deta-s3rver",
-    "description": "S3rver running on Deta Micros (S3 emulator)", 
+    "description": "S3rver: S3 compatible adaptor running on Deta Micros", 
     "runtime": "nodejs14.x",
     "env": [
         {
             "key": "BUCKETS",
-            "description": "S3 Buckets served by the service",
+            "description": "S3 Buckets offered by the service",
             "value": "test,qryn",
             "required": false 
         }

@@ -12,7 +12,7 @@
 
 ### :gear: Supported Features 
 #### 🧱 Storage
-- [x] Ephemeral storage using [`/tmp`](https://docs.deta.sh/docs/micros/faqs_micros#why-can-i-not-write-to-the-filesystem-in-a-micro) _(idle expiration)_
+- [x] Ephemeral storage using [`/tmp`](https://docs.deta.sh/docs/micros/faqs_micros#why-can-i-not-write-to-the-filesystem-in-a-micro) _(instance idle expiration)_
 - [ ] Persistent storage using Deta Drive _(no expiration)_
 - [ ] Persistent storage using Deta Base _(TTL expiration)_
 #### 🧱 Buckets

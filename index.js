@@ -1,7 +1,6 @@
 /*
  * S3rver on Deta Micro
  * NOTE: all data is EPHEMERAL until deta base storage is implemented
- *
  */
 
 const express = require('express')

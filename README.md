@@ -29,6 +29,8 @@
 - [x] Copy object _(including updating of metadata)_
 - [x] Listen to Put, Copy, Post and Delete events.
 
+<br>
+
 ### 🧪 Validation
 Test your deta-s3rver using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)
 

@@ -1,5 +1,5 @@
 {
-  "name": "ds3",
+  "name": "deta-s3rver",
   "version": "1.0.0",
   "description": "S3 compatible adaptor for Deta Micros",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "s3",
     "deta"
   ],
-  "author": "lorenzo.mangani@gmail.com",
+  "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",

@@ -34,6 +34,8 @@
 #### 🧪 Validation
 Test your deta-s3rver using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)
 
+S3rver source and API documentation are available at [jamhall/s3rver](https://github.com/jamhall/s3rver)
+
 <hr>
 
 ### <img src="https://docs.deta.sh/img/logo.svg" width=25> About Deta 

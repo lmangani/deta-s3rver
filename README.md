@@ -11,16 +11,16 @@
 <br>
 
 ### :gear: Supported Features 
-#### Storage
+#### 🧱 Storage
 - [x] Ephemeral storage using [`/tmp`](https://docs.deta.sh/docs/micros/faqs_micros#why-can-i-not-write-to-the-filesystem-in-a-micro) _(idle expiration)_
 - [ ] Persistent storage using Deta Drive _(no expiration)_
 - [ ] Persistent storage using Deta Base _(TTL expiration)_
-#### Buckets
+#### 🧱 Buckets
 - [x] Create bucket
 - [x] Delete bucket
 - [x] List buckets
 - [x] List content of buckets _(prefix, delimiter, marker and max keys, common prefixes)_
-#### Objects
+#### 🧱 Objects
 - [x] Put object _(support for metadata, including ContentEncoding (gzipped files)_
 - [x] Post object _(multipart)_
 - [x] Delete object(s)
@@ -29,7 +29,7 @@
 - [x] Copy object _(including updating of metadata)_
 - [x] Listen to Put, Copy, Post and Delete events.
 
-### :book: Validation
+### 🧪 Validation
 Test your deta-s3rver using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)
 
 <br>

@@ -29,12 +29,12 @@
 - [x] Copy object _(including updating of metadata)_
 - [x] Listen to Put, Copy, Post and Delete events.
 
-<br>
+<hr>
 
 ### 🧪 Validation
 Test your deta-s3rver using a [supported S3 client](https://github.com/jubos/fake-s3/wiki/Supported-Clients)
 
-<br>
+<hr>
 
-##### About Deta 
-This project is powered by [Deta](https://deta.sh), a free cloud crafted with the developer and user experience at heart.
+### <img src="https://docs.deta.sh/img/logo.svg" width=25> About Deta 
+This project is powered by [Deta](https://deta.sh), a free cloud crafted with the developer and user experience at heart :heart:

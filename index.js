@@ -5,7 +5,7 @@
 
 const express = require('express')
 const app = express()
-const S3rver = require('@qxip/s3rver');
+const S3rver = require('s3rver');
 
 // Set Buckets from BUCKETS ENV csv
 var BUCKETS = process.env.BUCKETS.split(',').map(name => ({name})) || false;

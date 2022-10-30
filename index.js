@@ -24,7 +24,7 @@ const s3rver = new S3rver({
 }).run(function(){ console.log('s3rver running')});
 
 // S3 API middleware
-app.any('*', (req, res) => { s3rver.getMiddleware()(req, res) })
+app.all('*', (req, res) => { s3rver.getMiddleware()(req, res) })
 
 const isMicro = process.env.DETA_RUNTIME || process.env.DETA_RUNTIME || false;
 if (!isMicro) app.listen({port: process.env.PORT || 4568, host: process.env.HOST || "0.0.0.0"})

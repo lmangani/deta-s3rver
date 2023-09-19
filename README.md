@@ -9,6 +9,13 @@
 
 <br>
 
+**s3rver** emulates a basic **S3** API on top of Deta Space **Drive** and **Base**.<br>
+All data and metadata files remain in your personal Deta storage and can be managed via the Space UI:
+
+![image](https://github.com/lmangani/deta-s3rver/assets/1423657/72d2a6aa-0f1a-4813-85a7-cf1479538bd6)
+
+
+
 ### :gear: Supported Features 
 #### 🧱 Storage
 - [x] Ephemeral storage using [`/tmp`](https://docs.deta.sh/docs/micros/faqs_micros#why-can-i-not-write-to-the-filesystem-in-a-micro) _(instance idle expiration)_

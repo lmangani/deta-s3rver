@@ -7,7 +7,9 @@
 
 <br>
 
-[![image](https://github.com/lmangani/deta-s3rver/assets/1423657/b2c94701-67f1-40c4-a46c-aef4e1517cd6)](https://deta.space/discovery/r/btsgyxlypadef6yv)
+<a href="https://deta.space/discovery/r/btsgyxlypadef6yv">
+  <img src="https://github.com/lmangani/deta-s3rver/assets/1423657/b2c94701-67f1-40c4-a46c-aef4e1517cd6" width=300>
+</a>
 
 <br>
 

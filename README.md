@@ -1,14 +1,14 @@
+<a href="https://deta.space/discovery/r/btsgyxlypadef6yv" target="_blank">
 <img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta.svg" width=200>
+</a>a>
 
 # S3: deta-s3rver
 :rocket: [s3rver](https://github.com/jamhall/s3rver) S3 compatible adaptor running on [Deta Space](https://deta.space/) 
 
 > S3rver is a lightweight server that responds to some of the same calls Amazon S3 responds to. It is extremely useful for testing S3 in a sandbox environment without actually making calls to Amazon. The goal of S3rver is to minimise runtime dependencies and be more of a development tool to test S3 calls in your code/CI.
 
-<br>
-
-<a href="https://deta.space/discovery/r/btsgyxlypadef6yv">
-  <img src="https://github.com/lmangani/deta-s3rver/assets/1423657/b2c94701-67f1-40c4-a46c-aef4e1517cd6" width=300>
+<a href="https://deta.space/discovery/r/btsgyxlypadef6yv" target="_blank">
+<img src="https://github.com/lmangani/deta-s3rver/assets/1423657/b2c94701-67f1-40c4-a46c-aef4e1517cd6" width=200>
 </a>
 
 <br>

@@ -1,4 +1,4 @@
-<img src="https://docs.deta.sh/img/logo.svg" width=200>
+<img src="https://raw.githubusercontent.com/deta/.github/main/profile/deta.svg" width=200>
 
 # S3: deta-s3rver
 :rocket: [s3rver](https://github.com/jamhall/s3rver) S3 compatible adaptor running on [Deta Space](https://deta.space/) 
@@ -7,7 +7,7 @@
 
 <br>
 
-[![Deploy](https://button.deta.dev/1/svg)](https://deta.space/discovery/r/hgngxnnz9d6w4mrb)
+[![image](https://github.com/lmangani/deta-s3rver/assets/1423657/b2c94701-67f1-40c4-a46c-aef4e1517cd6)](https://deta.space/discovery/r/btsgyxlypadef6yv)
 
 <br>
 
